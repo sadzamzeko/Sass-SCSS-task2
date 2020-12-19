@@ -1,7 +1,10 @@
 //private classes
 
 %container{
-    max-width: 1100px;
+    max-width: 900px;
     width: 90%;
     margin: 15px auto;
+}
+%box-shadow{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5);
 }
