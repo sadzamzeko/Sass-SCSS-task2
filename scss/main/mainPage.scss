@@ -19,3 +19,39 @@ header{
 
     }
 }
+.banner{
+    // background-color: red;
+    background-image: url(../../image/block.png);
+    @include bg-image(90%,20px,13px,center,cover);
+    @extend %container;
+    @include flex-property(flex, space-between , flex-start);
+    font-size: $size03;
+    color: $color02;
+    .box1{
+        width: $size-02;
+        // background-color: green;
+        h3{
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        h1{
+            font-size:$size02;
+            margin-bottom: 20px;
+        }
+        button{
+            margin-top: 20px;
+            @include button-style(170px, 10px, $color03 , $color02);
+            @include button-border-style(2px, solid, $color03, 8px);
+        }
+    }
+    .box2{
+        width: $size-03;
+        // background-color: blue;
+        @include flex-property(flex, space-between,center);
+        button{
+            text-transform: uppercase;
+            @include button-style(130px, 5px, $color01 , $color02);
+            @include button-border-style(1px, solid, $color01, 5px);
+        }
+    }
+}

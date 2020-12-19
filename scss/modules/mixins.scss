@@ -1,3 +1,5 @@
+@import './variable.scss';
+
 //mixins
 
 @mixin flex-property($flex, $horizontal , $vertical)
@@ -5,4 +7,24 @@
     display: $flex;
     justify-content: $horizontal;
     align-items: $vertical;
+}
+
+@mixin button-style( $size01, $size02, $color01, $color02){
+    width:$size01;
+    padding:$size02 ;
+    color: $color01;
+    background-color:$color02 ;   
+}
+@mixin button-border-style($size01, $solid, $color01, $sizeo02){
+    border-width: $size01;
+    border-style: $solid;
+    border-color: $color01;
+    border-radius: $size02;
+}
+@mixin bg-image($size01,$size02,$size03,$center,$cover){
+    width: $size01;
+    padding: $size02;
+    border-radius: $size03;
+    background-position:$center ;
+    background-size:$cover; 
 }
