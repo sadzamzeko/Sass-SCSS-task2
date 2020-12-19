@@ -98,7 +98,7 @@ section{
             @include button-style(100%, 15px, $color01 , $color02);
             @include button-border-style(1px, solid, rgba($color01, 0.5), 5px);
             @extend %box-shadow;
-            background-image: url(../../image/prom1.png);
+            background-image: url(../image/prom1.png);
             @include bg-image(100%,20px,10px,center,cover);
             color: $color02;
             h3{
