@@ -1,137 +1,147 @@
 @import '../basic/reset.scss';
+@import '../basic/font.scss';
 @import '../modules/variable.scss';
 @import '../modules/classes.scss';
 @import '../modules/mixins.scss';
 
+body{
+    font-family: $font01;
+    header{
+        @extend %font;
+        @extend %container;
+        @include flex-property(flex, space-between, center );
+        color: $color01;
+        ul{
+            display: flex;
+            font-size: $size01;
+            a{
+                color: $color01;
+                margin-right: 20px;
+            }
 
-header{
-    @extend %container;
-    @include flex-property(flex, space-between, center );
-    color: $color01;
-    ul{
-        display: flex;
-        font-size: $size01;
-        a{
-            color: $color01;
-            margin-right: 20px;   
-        }
-
-    }
-}
-.banner{
-    background-image: url(../../image/block.png);
-    @include bg-image(90%,20px,13px,center,cover);
-    @extend %container;
-    @include flex-property(flex, space-between , flex-start);
-    font-size: $size03;
-    color: $color02;
-    .text-box1{
-        width: $size-02;
-        // background-color: green;
-        h3{
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-        h1{
-            font-size:$size02;
-            margin-bottom: 20px;
-        }
-        button{
-            margin-top: 20px;
-            @include button-style(170px, 10px, $color03 , $color02);
-            @include button-border-style(2px, solid, $color03, 8px);
         }
     }
-    .text-box2{
-        width: $size-03;
-        // background-color: blue;
-        @include flex-property(flex, space-between,center);
-        button{
-            text-transform: uppercase;
-            @include button-style(130px, 5px, $color01 , $color02);
-            @include button-border-style(1px, solid, $color01, 5px);
-        }
-    }
-}
-section{
-    // background-color: red;
-    margin-top: 30px;
-    @extend %container;
-    @include flex-property(flex, space-between, flex-start);
-    h2{
-        font-size: $size01;
-        margin-bottom: 15px;
-    }
-    .left-wrapper{
-        width: 60%;
-        @include button-style(60%, 15px, $color01 , $color02);
-        @include button-border-style(1px, solid, rgba($color01, 0.5), 5px);
-        @extend %box-shadow;
-        .box{
-            @include flex-property(flex, space-between,flex-start);
-            img{
-                width: 176px;
-            }
-            .text-wrapper{
-                margin-left: 10px;
-                h5{
-                    margin-bottom: 10px;
-                }
-                h3{
-                    margin-bottom: 10px;
-                }
-                &:last-child{
-                    margin-bottom: 50px;
-                }
-            }
-            &:last-child{
-            margin-top: 20px;
-            }
-            
-        
-        }
-        
-    }
-    .right-wrapper{
-        width: 35%;
-        .right-box{
-            @include button-style(100%, 15px, $color01 , $color02);
-            @include button-border-style(1px, solid, rgba($color01, 0.5), 5px);
-            @extend %box-shadow;
-            background-image: url(../image/prom1.png);
-            @include bg-image(100%,20px,10px,center,cover);
-            color: $color02;
+    .banner{
+        font-family: $font01;
+        background-image: url(../image/block.png);
+        @include bg-image(90%,20px,13px,center,cover);
+        @extend %container;
+        @include flex-property(flex, space-between , flex-start);
+        font-size: $size03;
+        color: $color02;
+        .text-box1{
+            width: $size-02;
             h3{
-                margin-bottom: 10px;
+                font-family: $font02;
+                text-transform: uppercase;
+                margin-bottom: 20px;
             }
             h1{
-                font-size: $size01;
-                margin-bottom: 10px;
-            }
-            p{
+                @extend %font;
+                font-size:$size02;
                 margin-bottom: 20px;
             }
             button{
-                @include button-style(150px, 10px, $color02, $color01);
+                margin-top: 20px;
+                @include button-style(170px, 10px, $color03 , $color02);
+                @include button-border-style(2px, solid, $color03, 8px);
+            }
+        }
+        .text-box2{
+            width: $size-03;
+            @include flex-property(flex, space-between,center);
+            button{
+                text-transform: uppercase;
+                @include button-style(85px, 5px, $color01 , $color02);
                 @include button-border-style(1px, solid, $color01, 5px);
             }
         }
-        .right-box2{
-            margin-top: 30px;
-            @include button-style(100%, 25px, $color01 , $color02);
-            @include button-border-style(1px, solid, rgba($color01, 0.5), 2px);
-            @extend %box-shadow;
-            h3{
-                margin-bottom: 10px;
-            }
-            p{
-                margin-bottom: 10px;
-            }
-            input{
-                @include button-style(100%, 10px, $color01, $color02);
-                margin-bottom: 25px;
-            }
-        }
-
     }
+    section{
+        margin-top: 30px;
+        @extend %container;
+        @include flex-property(flex, space-between, flex-start);
+        h2{
+            @extend %font;
+            font-size: $size01;
+            margin-bottom: 15px;
+        }
+        .left-wrapper{
+            width: 60%;
+            @include button-style(60%, 15px, $color01 , $color02);
+            @include button-border-style(1px, solid, rgba($color01, 0.5), 5px);
+            @extend %box-shadow;
+            .box{
+                @include flex-property(flex, space-between,flex-start);
+                img{
+                    width: 176px;
+                }
+                .text-wrapper{
+                    margin-left: 10px;
+                    h5{
+                        margin-bottom: 10px;
+                    }
+                    h3{
+                        @extend %font;
+                        margin-bottom: 10px;
+                    }
+                    &:last-child{
+                        margin-bottom: 50px;
+                    }
+                }
+                &:last-child{
+                margin-top: 20px;
+                }
+            }    
+        }
+        .right-wrapper{
+            width: 35%;
+            .right-box{
+                @include button-style(100%, 15px, $color01 , $color02);
+                @include button-border-style(1px, solid, rgba($color01, 0.5), 5px);
+                @extend %box-shadow;
+                background-image: url(../image/prom1.png);
+                @include bg-image(100%,20px,10px,center,cover);
+                color: $color02;
+                h3{
+                    margin-bottom: 10px;
+                }
+                h1{
+                    @extend %font;
+                    font-size: $size01;
+                    margin-bottom: 10px;
+                }
+                p{
+                    margin-bottom: 20px;
+                }
+                button{
+                    @include button-style(150px, 10px, $color02, $color01);
+                    @include button-border-style(1px, solid, $color01, 5px);
+                }
+            }
+            .right-box2{
+                margin-top: 30px;
+                @include button-style(100%, 25px, $color01 , $color02);
+                @include button-border-style(1px, solid, rgba($color01, 0.5), 2px);
+                @extend %box-shadow;
+                h3{
+                    @extend %font;
+                    margin-bottom: 10px;
+                }
+                p{
+                    margin-bottom: 10px;
+                }
+                input{
+                    @include button-style(100%, 10px, $color01, $color02);
+                    margin-bottom: 25px;
+                }
+                button{
+                    @include button-style(50%, 10px, $color01, $color02);
+                    @include button-border-style(1px, solid, $color01, 5px);
+                }
+            }
+
+        }
+    }
+
 }

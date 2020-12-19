@@ -41,13 +41,59 @@ a {
 * {
   box-sizing: border-box; }
 
-header, .banner, section {
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
+
+body header, body .banner, body section {
   max-width: 900px;
   width: 90%;
   margin: 15px auto; }
 
-section .left-wrapper, section .right-wrapper .right-box, section .right-wrapper .right-box2 {
+body section .left-wrapper, body section .right-wrapper .right-box, body section .right-wrapper .right-box2 {
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5); }
+
+body header, body .banner .text-box1 h1, body section h2, body section .left-wrapper .box .text-wrapper h3, body section .right-wrapper .right-box h1, body section .right-wrapper .right-box2 h3 {
+  font-family: "ALK Sanet";
+  font-weight: bolder; }
+
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -92,157 +138,214 @@ a {
 * {
   box-sizing: border-box; }
 
-header, .banner, section {
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
+
+body header, body .banner, body section {
   max-width: 900px;
   width: 90%;
   margin: 15px auto; }
 
-section .left-wrapper, section .right-wrapper .right-box, section .right-wrapper .right-box2 {
+body section .left-wrapper, body section .right-wrapper .right-box, body section .right-wrapper .right-box2 {
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5); }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #404040; }
-  header ul {
-    display: flex;
-    font-size: 28px; }
-    header ul a {
-      color: #404040;
-      margin-right: 20px; }
+body header, body .banner .text-box1 h1, body section h2, body section .left-wrapper .box .text-wrapper h3, body section .right-wrapper .right-box h1, body section .right-wrapper .right-box2 h3 {
+  font-family: "ALK Sanet";
+  font-weight: bolder; }
 
-.banner {
-  background-image: url(../../image/block.png);
-  width: 90%;
-  padding: 20px;
-  border-radius: 13px;
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-size: 15px;
-  color: #F0F0F0; }
-  .banner .text-box1 {
-    width: 75%; }
-    .banner .text-box1 h3 {
-      text-transform: uppercase;
-      margin-bottom: 20px; }
-    .banner .text-box1 h1 {
-      font-size: 33px;
-      margin-bottom: 20px; }
-    .banner .text-box1 button {
-      margin-top: 20px;
-      width: 170px;
-      padding: 10px;
-      color: #58c3dd;
-      background-color: #F0F0F0;
-      border-width: 2px;
-      border-style: solid;
-      border-color: #58c3dd;
-      border-radius: 33px; }
-  .banner .text-box2 {
-    width: 25%;
+@font-face {
+  font-family: 'BPG Boxo-Boxo';
+  src: url("../font/bpg-boxo-boxo-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/bpg-boxo-boxo-webfont.eot?#iefix") format("embedded-opentype"), url("../font/bpg-boxo-boxo-webfont.woff2") format("woff2"), url("../font/bpg-boxo-boxo-webfont.woff") format("woff"), url("../font/bpg-boxo-boxo-webfont.ttf") format("truetype"), url("../font/bpg-boxo-boxo-webfont.svg#bpg_boxo-boxoregular") format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'ALK Sanet';
+  src: url("../font/alk-sanet-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("../font/alk-sanet-webfont.eot?#iefix") format("embedded-opentype"), url("../font/alk-sanet-webfont.woff2") format("woff2"), url("../font/alk-sanet-webfont.woff") format("woff"), url("../font/alk-sanet-webfont.ttf") format("truetype"), url("../font/alk-sanet-webfont.svg#alk_sanetregular") format("svg");
+  /* Legacy iOS */ }
+
+body {
+  font-family: "BPG Boxo-Boxo"; }
+  body header {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
-    .banner .text-box2 button {
-      text-transform: uppercase;
-      width: 130px;
-      padding: 5px;
-      color: #404040;
-      background-color: #F0F0F0;
-      border-width: 1px;
-      border-style: solid;
-      border-color: #404040;
-      border-radius: 33px; }
-
-section {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
-  section h2 {
-    font-size: 28px;
-    margin-bottom: 15px; }
-  section .left-wrapper {
-    width: 60%;
-    width: 60%;
-    padding: 15px;
-    color: #404040;
-    background-color: #F0F0F0;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(64, 64, 64, 0.5);
-    border-radius: 33px; }
-    section .left-wrapper .box {
+    align-items: center;
+    color: #404040; }
+    body header ul {
+      display: flex;
+      font-size: 28px; }
+      body header ul a {
+        color: #404040;
+        margin-right: 20px; }
+  body .banner {
+    font-family: "BPG Boxo-Boxo";
+    background-image: url(../image/block.png);
+    width: 90%;
+    padding: 20px;
+    border-radius: 13px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 15px;
+    color: #F0F0F0; }
+    body .banner .text-box1 {
+      width: 75%; }
+      body .banner .text-box1 h3 {
+        font-family: "ALK Sanet";
+        text-transform: uppercase;
+        margin-bottom: 20px; }
+      body .banner .text-box1 h1 {
+        font-size: 33px;
+        margin-bottom: 20px; }
+      body .banner .text-box1 button {
+        margin-top: 20px;
+        width: 170px;
+        padding: 10px;
+        color: #58c3dd;
+        background-color: #F0F0F0;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #58c3dd;
+        border-radius: 33px; }
+    body .banner .text-box2 {
+      width: 25%;
       display: flex;
       justify-content: space-between;
-      align-items: flex-start; }
-      section .left-wrapper .box img {
-        width: 176px; }
-      section .left-wrapper .box .text-wrapper {
-        margin-left: 10px; }
-        section .left-wrapper .box .text-wrapper h5 {
-          margin-bottom: 10px; }
-        section .left-wrapper .box .text-wrapper h3 {
-          margin-bottom: 10px; }
-        section .left-wrapper .box .text-wrapper:last-child {
-          margin-bottom: 50px; }
-      section .left-wrapper .box:last-child {
-        margin-top: 20px; }
-  section .right-wrapper {
-    width: 35%; }
-    section .right-wrapper .right-box {
-      width: 100%;
+      align-items: center; }
+      body .banner .text-box2 button {
+        text-transform: uppercase;
+        width: 85px;
+        padding: 5px;
+        color: #404040;
+        background-color: #F0F0F0;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #404040;
+        border-radius: 33px; }
+  body section {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+    body section h2 {
+      font-size: 28px;
+      margin-bottom: 15px; }
+    body section .left-wrapper {
+      width: 60%;
+      width: 60%;
       padding: 15px;
       color: #404040;
       background-color: #F0F0F0;
       border-width: 1px;
       border-style: solid;
       border-color: rgba(64, 64, 64, 0.5);
-      border-radius: 33px;
-      background-image: url(../image/prom1.png);
-      width: 100%;
-      padding: 20px;
-      border-radius: 10px;
-      background-position: center;
-      background-size: cover;
-      color: #F0F0F0; }
-      section .right-wrapper .right-box h3 {
-        margin-bottom: 10px; }
-      section .right-wrapper .right-box h1 {
-        font-size: 28px;
-        margin-bottom: 10px; }
-      section .right-wrapper .right-box p {
-        margin-bottom: 20px; }
-      section .right-wrapper .right-box button {
-        width: 150px;
-        padding: 10px;
-        color: #F0F0F0;
-        background-color: #404040;
-        border-width: 1px;
-        border-style: solid;
-        border-color: #404040;
-        border-radius: 33px; }
-    section .right-wrapper .right-box2 {
-      margin-top: 30px;
-      width: 100%;
-      padding: 25px;
-      color: #404040;
-      background-color: #F0F0F0;
-      border-width: 1px;
-      border-style: solid;
-      border-color: rgba(64, 64, 64, 0.5);
       border-radius: 33px; }
-      section .right-wrapper .right-box2 h3 {
-        margin-bottom: 10px; }
-      section .right-wrapper .right-box2 p {
-        margin-bottom: 10px; }
-      section .right-wrapper .right-box2 input {
+      body section .left-wrapper .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; }
+        body section .left-wrapper .box img {
+          width: 176px; }
+        body section .left-wrapper .box .text-wrapper {
+          margin-left: 10px; }
+          body section .left-wrapper .box .text-wrapper h5 {
+            margin-bottom: 10px; }
+          body section .left-wrapper .box .text-wrapper h3 {
+            margin-bottom: 10px; }
+          body section .left-wrapper .box .text-wrapper:last-child {
+            margin-bottom: 50px; }
+        body section .left-wrapper .box:last-child {
+          margin-top: 20px; }
+    body section .right-wrapper {
+      width: 35%; }
+      body section .right-wrapper .right-box {
         width: 100%;
-        padding: 10px;
+        padding: 15px;
         color: #404040;
         background-color: #F0F0F0;
-        margin-bottom: 25px; }
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(64, 64, 64, 0.5);
+        border-radius: 33px;
+        background-image: url(../image/prom1.png);
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        background-position: center;
+        background-size: cover;
+        color: #F0F0F0; }
+        body section .right-wrapper .right-box h3 {
+          margin-bottom: 10px; }
+        body section .right-wrapper .right-box h1 {
+          font-size: 28px;
+          margin-bottom: 10px; }
+        body section .right-wrapper .right-box p {
+          margin-bottom: 20px; }
+        body section .right-wrapper .right-box button {
+          width: 150px;
+          padding: 10px;
+          color: #F0F0F0;
+          background-color: #404040;
+          border-width: 1px;
+          border-style: solid;
+          border-color: #404040;
+          border-radius: 33px; }
+      body section .right-wrapper .right-box2 {
+        margin-top: 30px;
+        width: 100%;
+        padding: 25px;
+        color: #404040;
+        background-color: #F0F0F0;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(64, 64, 64, 0.5);
+        border-radius: 33px; }
+        body section .right-wrapper .right-box2 h3 {
+          margin-bottom: 10px; }
+        body section .right-wrapper .right-box2 p {
+          margin-bottom: 10px; }
+        body section .right-wrapper .right-box2 input {
+          width: 100%;
+          padding: 10px;
+          color: #404040;
+          background-color: #F0F0F0;
+          margin-bottom: 25px; }
+        body section .right-wrapper .right-box2 button {
+          width: 50%;
+          padding: 10px;
+          color: #404040;
+          background-color: #F0F0F0;
+          border-width: 1px;
+          border-style: solid;
+          border-color: #404040;
+          border-radius: 33px; }
