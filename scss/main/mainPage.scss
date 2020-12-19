@@ -1,0 +1,21 @@
+@import '../basic/reset.scss';
+@import '../modules/variable.scss';
+@import '../modules/classes.scss';
+@import '../modules/mixins.scss';
+
+
+header{
+    background-color: red;
+    @extend %container;
+    @include flex-property(flex, space-between, center );
+    color: $color01;
+    ul{
+        display: flex;
+        font-size: $size01;
+        a{
+            color: $color01;
+            margin-right: 20px;   
+        }
+
+    }
+}

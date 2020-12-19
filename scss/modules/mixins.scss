@@ -1,0 +1,8 @@
+//mixins
+
+@mixin flex-property($flex, $horizontal , $vertical)
+{
+    display: $flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
