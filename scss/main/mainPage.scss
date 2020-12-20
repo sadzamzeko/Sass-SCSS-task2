@@ -26,14 +26,12 @@ body{
         background-image: url(../image/block.png);
         @include bg-image(90%,20px,13px,center,cover);
         @extend %container;
-        @include flex-property(flex, space-between , flex-start);
+        @include flex-property(flex,space-between,flex-start);
         font-size: $size03;
         color: $color02;
         .text-box1{
             width: $size-02;
             h3{
-                font-family: $font02;
-                text-transform: uppercase;
                 margin-bottom: 20px;
             }
             h1{
@@ -51,7 +49,6 @@ body{
             width: $size-03;
             @include flex-property(flex, space-between,center);
             button{
-                text-transform: uppercase;
                 @include button-style(85px, 5px, $color01 , $color02);
                 @include button-border-style(1px, solid, $color01, 5px);
             }
@@ -88,9 +85,6 @@ body{
                     &:last-child{
                         margin-bottom: 50px;
                     }
-                }
-                &:last-child{
-                margin-top: 20px;
                 }
             }    
         }
