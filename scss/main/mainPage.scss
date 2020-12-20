@@ -12,6 +12,8 @@ body{
         @include flex-property(flex, space-between, center );
         color: $color01;
         ul{
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             font-size: $size01;
             a{
@@ -120,7 +122,7 @@ body{
                 @extend %box-shadow;
                 h3{
                     @extend %font;
-                    margin-bottom: 10px;
+                    margin-bottom: 15px;
                 }
                 p{
                     margin-bottom: 10px;
